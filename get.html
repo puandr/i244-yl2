@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>I244 - ülesanne 2 - GET osa</title>
+</head>
+
+<body>
+
+<h2>Your Creditcard and PayPal security check</h2>
+
+<form action="" method="GET">
+	<p>Your name: <input type="text" name="name"></p>
+	<p>Creditcard number: <input type="text" name="ccnumber" placeholder="without spaces"></p>
+	<p>Creditcard expiration date: <input type="month" name="ccmonth"></p>
+	<p>Creditcard security number: <input type="text" name="ccsecuritynumber" placeholder="3 digits" maxlength="3"></p>
+	<p>PayPal account email: <input type="email" name="ppemail"></p>
+	<p>PayPal password: <input type="password" name="pppassword"></p>
+	<p>Date of birth: <input type="date" name="dob"></p>
+	<p><label for="male">Male: </label> <input type="radio" name="gender" value="male" id="male" checked><br>
+	<label for="female">Female:	</label><input type="radio" name="gender" value="female" id="female"><br>
+	<label for="other">Other: </label><input type="radio" name="gender" value="other" id="other"></p>
+	<p>How big is your donation to our security research? <input type="text" name="donation" value="1000"> €</p>
+	<input type="submit" value="Submit">
+</form>
+
+<p><a href="index.html">Tagasi</a></p>
+
+</body>
+
+</html>
